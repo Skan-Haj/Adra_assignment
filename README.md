@@ -12,6 +12,8 @@
 
 ## Comments
 
+### Description
+
 The average accuracy on the validation set was of 0.94.
 
 The model used to classify the teeths roots images is a convolutional neural network. CNN was chosen as it is known to have the ablility to develop a representation of a two-dimensional image and is often used for image classification tasks. 
@@ -24,7 +26,7 @@ Slight overfitting was sometime observed, dropout and spatial dropout layers wer
 The dataset was normalized and resized for better accuracy. The metrics used to assess the performance of the model are the binary cross-entropy loss, the accuracy, the AUC and F1-score. The ADAM optimizer was used as it automates the learning-rate. 
 
 
-### Improvements
+### Possible Improvements
 
 - Multiply the data by intensity transformation and rotation of the training set images to further improve the accuracy.
 - Find a way to effectively reduce overfitting via regularization.
