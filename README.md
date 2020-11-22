@@ -21,7 +21,7 @@ Multiple layer combinations were tested and the final layout is composed of 6 Co
 Different filter shapes were tested, similar to the shape of the roots (thin vertical rectangles), but square filters proved to be more effective.
 Slight overfitting was sometime observed, dropout and spatial dropout layers were added to reduce it but it only worsened the performance of the model and were removed.
 
-The dataset was normalized and resized for better accuracy. The metrics used to assess the performance of the model are the binary cross-entropy loss, the accuracy, the AUC and F1-score.The ADAM optimizer was used as it automates the learning-rate. 
+The dataset was normalized and resized for better accuracy. The metrics used to assess the performance of the model are the binary cross-entropy loss, the accuracy, the AUC and F1-score. The ADAM optimizer was used as it automates the learning-rate. 
 
 
 ### Improvements
@@ -29,4 +29,5 @@ The dataset was normalized and resized for better accuracy. The metrics used to 
 - Multiply the data by intensity transformation and rotation of the training set images to further improve the accuracy.
 - Find a way to effectively reduce overfitting via regularization.
 - Test a wider variety of filter shapes.
+- Test other activation functions for each layer.
 - Use a combination of multiple models to cope with the relatively small size of the dataset.
